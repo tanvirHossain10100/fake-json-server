@@ -1,6 +1,6 @@
 {
   "routes": [
-    { "src": "/jobs/(.*)", "dest": "http://localhost:9000/jobs/$1" },
+    { "src": "/jobs/(.*)", "dest": "http://localhost:9000/jobs" },
     { "src": "/(.*)", "dest": "http://localhost:9000/$1" }
   ]
 }
