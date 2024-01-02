@@ -5,14 +5,14 @@
       "src": "server.js",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["db.json"]
+        "includeFiles": ["db_jobs.json"]
       }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "server.js"
+      "dest": "db_jobs.json"
     }
   ]
 }
