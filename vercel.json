@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/jobs/(.*)", "destination": "/db_jobs.json" },
+    { "source": "/(.*)/jobs", "destination": "/db_jobs.json" },
     { "source": "/(.*)", "destination": "/db_jobs.json" }
   ]
 }
